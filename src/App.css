@@ -1,0 +1,47 @@
+.dropDown-enabled{
+    background-color: aliceblue;
+    color:white;
+    border:1px solid white;
+    border-radius:8px;
+}
+.dropDown-enabled:hover{
+    background-color:blueviolet;
+}
+.dropDown-disabled{
+    display: none;
+}
+.theme-list{
+    width: 100%;
+    padding: 3px;
+    cursor: pointer;
+}
+.theme-list:hover{
+    background-color: aliceblue;
+}
+.theme-color{
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    margin: 0 15px;
+    border-radius: 50%;
+    
+}
+.theme-color.red{
+    background-color: red;
+    border: 3px solid red;
+}
+.theme-color.blue{
+    background-color: blue;
+    border: 3px solid blue;
+}
+.theme-color.yellow{
+    background-color: rgb(222, 235, 43);
+    border: 3px solid rgb(222, 235, 43);
+}
+.theme-color.green{
+    background-color: green;
+    border: 3px solid green;
+}
+.bg-red{
+    background-color: red;
+}
